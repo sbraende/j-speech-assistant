@@ -1,4 +1,40 @@
-* {
-    color: var(--primary-color);
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    border: 2px solid black;
+    width: 90%;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    height: 100%;
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+}
+
+.main-container__button {
+    background-color: whitesmoke;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container__button:focus {
     background-color: green;
 }
+
+
+
