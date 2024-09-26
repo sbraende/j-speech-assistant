@@ -70,3 +70,7 @@ main {
     border: 1 solid black;
     border-radius: 1rem;
 }
+
+.speechboard__item:hover{
+    background-color: lightgreen;
+}
