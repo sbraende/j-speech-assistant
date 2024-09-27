@@ -7,7 +7,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--primary-background-color);
+    background-image: url("/assets/images/background/flower_pattern.jpg");
+    background-repeat: repeat;
+    background-size: 1000px;
+    /* background-color: green; */
 }
 
 main {
@@ -38,13 +41,17 @@ main {
     justify-content: center;
     align-items: center;
     gap: var(--padding-small);
-    background-color: var(--secondary-background-color);
+    /* background-color: var(--secondary-background-color); */
+    background-color: rgb(171, 192, 199);
+    border: none;
     border-top-left-radius: var(--padding-medium);
     border-bottom-left-radius: var(--padding-medium);
 }
 
 .navbar__item--active {
-    background-color: var(--primary-light-color);
+    /* border: px solid black; */
+    border-right: none;
+    background-color: var(--emily-color);
 }
 
 .navbar__item-icon {
@@ -56,8 +63,10 @@ main {
 }
 
 .speechboard {
-    background-color: var(--primary-light-color);
     width: 100%;
+    background-color: var(--emily-color);
+    border-top-right-radius: var(--padding-medium);
+    border-bottom-right-radius: var(--padding-medium);
 }
 
 .speechboard__container{
@@ -76,8 +85,8 @@ main {
     justify-content: center;
     align-items: center;
     gap: var(--padding-small);
-    background-color: salmon;
-    border: 1 solid black;
+    background-color: rgb(222, 206, 180);
+    border: none;
     border-radius: var(--padding-medium);
 }
 
