@@ -1,35 +1,53 @@
 import { VitePWA } from 'vite-plugin-pwa';
 import { defineConfig } from 'vite'
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [VitePWA({
-    registerType: 'autoUpdate',
-    injectRegister: false,
+  plugins: 
+    [VitePWA({
+      registerType: 'autoUpdate',
 
-    pwaAssets: {
-      disabled: false,
-      config: true,
-    },
+      manifest: {
+        name: 'J-Speech-Assistant',
+        short_name: 'J-Speech',
+        description: 'J-Speech helps people with speech diffuclties communicate',
+        theme_color: '#333333',
+      },
 
-    manifest: {
-      name: 'J-Speech-Assistant',
-      short_name: 'J-Speech',
-      description: 'Soundboard to help with speech',
-      theme_color: '#ffffff',
-    },
+      icons: [
+        {
+          src: 'assets/images/favicon_io/android-chrome-192x192.png',
+          size: '192x192',
+          type: 'image/png'
+        },
+        {
+          src: 'assets/images/favicon_io/android-chrome-512x512.png',
+          size: '512x512',
+          type: 'image/png'
+        },
+        {
+          src: 'assets/images/favicon_io/android-chrome-512x512.png',
+          size: '512x512',
+          type: 'image/png',
+          purpose: 'any'
+        },
+        {
+          src: 'assets/images/favicon_io/android-chrome-512x512.png',
+          size: '512x512',
+          type: 'image/png',
+          purpose: 'maskable'
+        }
+      ],
 
-    workbox: {
-      globPatterns: ['**/*.{js,css,html,svg,png,ico}'],
-      cleanupOutdatedCaches: true,
-      clientsClaim: true,
-    },
+      workbox: {
+        globPatterns: ['**/*.{js,css,html,svg,png,ico}'],
+        clientsClaim: true,
+      },
 
-    devOptions: {
-      enabled: false,
-      navigateFallback: 'index.html',
-      suppressWarnings: true,
-      type: 'module',
-    },
+      devOptions: {
+        enabled: false,
+        navigateFallback: 'index.html',
+        suppressWarnings: true,
+        type: 'module',
+      },
   })],
 })
