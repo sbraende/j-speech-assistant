@@ -20,37 +20,28 @@
 <body>
     <main>
         <nav class="navbar">
-            <ul class="navbar__element-container">
-                <li class="navbar__item">Hygge</li>
-                <li class="navbar__item">Helse</li>
-                <li class="navbar__item">Medisin</li>
-                <li class="navbar__item">Helse</li>
-                <li class="navbar__item">Mat & Drikke</li>
-                <li class="navbar__item navbar__item--active">Favorites</li>
-            </ul>
+            <div class="navbar__element-container">
+                <button class="navbar__item">Hygge</button>
+                <button class="navbar__item">Helse</button>
+                <button class="navbar__item">Medisin</button>
+                <button class="navbar__item">Helse</button>
+                <button class="navbar__item">Mat & Drikke</button>
+                <button class="navbar__item navbar__item--active">
+                    <h3 class="navbar__item-icon">❤️</h3>
+                    <h3 class="navbar__item-title">Favoritter</h3>
+                </button>
+            </div>
         </nav>
         <section class="speechboard">
             <div class="speechboard__container">
-                <div class="speechboard__item">one</div>
-                <div class="speechboard__item">two</div>
-                <div class="speechboard__item">three</div>
-                <div class="speechboard__item">TEST</div>
-                <div class="speechboard__item">TEST</div>
-                <div class="speechboard__item">TEST</div>
-                <div class="speechboard__item">TEST</div>
-                <div class="speechboard__item">TEST</div>
-                <div class="speechboard__item">TEST</div>
-                <div class="speechboard__item">TEST</div>
-                <div class="speechboard__item">TEST</div>
-                <div class="speechboard__item">TEST</div>
-                <div class="speechboard__item">TEST</div>
-                <div class="speechboard__item">TEST</div>
-                <div class="speechboard__item">TEST</div>
-                <div class="speechboard__item">TEST</div>
-                <div class="speechboard__item">TEST</div>
-                <div class="speechboard__item">TEST</div>
-                <div class="speechboard__item">TEST</div>
-                <div class="speechboard__item">TEST</div>
+                <button id="ja" class="speechboard__item">
+                    <h3 class="speechboard__item-icon">✅</h3>
+                    <h3 class="speechboard__item-title">Ja</h3>
+                </button>
+                <button id="nei" class="speechboard__item">
+                    <h3 class="speechboard__item-icon">❌</h3>
+                    <h3 class="speechboard__item-title">nei</h3>
+                </button>
             </div>
         </section>
     </main>
