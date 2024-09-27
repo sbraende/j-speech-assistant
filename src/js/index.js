@@ -1,7 +1,13 @@
-// const buttonEL = document.getElementById("sound")
+document.getElementById("ja").addEventListener("click", () => {
+    playSound("ja")
+})
+document.getElementById("nei").addEventListener("click", () => {
+    playSound("nei")
+})
 
-// buttonEL.addEventListener("click", () => {
-//     console.log("Hello!")
-//     const sound = new Audio('../assets/sounds/ttsMP3.com_VoiceText_2024-9-25_18-57-29.mp3')
-//     sound.play()
-// })
+const playSound = (soundId) => {
+    let sound = new Audio(`assets/sounds/${soundId}.mp3`)
+    sound.play()
+}
+
+
