@@ -78,6 +78,9 @@ main {
 }
 
 .speechboard__item {
+
+    touch-action: none;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,14 +91,12 @@ main {
     border-radius: var(--padding-medium);
 }
 
-.speechboard__item:hover{
-    /* background-color: lightgreen; */
-}
-
 .speechboard__item-icon{
+    touch-action: none;
     font-size: 4rem;
 }
 
 .speechboard__item-title{
+    touch-action: none;
     font-size: 2rem;
 }
