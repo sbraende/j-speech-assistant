@@ -78,9 +78,6 @@ main {
 }
 
 .speechboard__item {
-
-    touch-action: none;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,12 +88,13 @@ main {
     border-radius: var(--padding-medium);
 }
 
-.speechboard__item-icon{
+.speechbord__item-icon{
     touch-action: none;
     font-size: 4rem;
+    color: red;
 }
 
 .speechboard__item-title{
     touch-action: none;
-    font-size: 2rem;
+    font-size: 3rem;
 }

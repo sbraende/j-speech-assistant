@@ -1,74 +1,33 @@
-// document.getElementById("ja").addEventListener("click", () => {
-//     playSound("ja")
-// })
-// document.getElementById("nei").addEventListener("click", () => {
-//     playSound("nei")
-// })
-// document.getElementById("vet-ikke").addEventListener("click", () => {
-//     playSound("vet-ikke")
-// })
-// document.getElementById("ferdig").addEventListener("click", () => {
-//     playSound("ferdig")
-// })
-// document.getElementById("torst").addEventListener("click", () => {
-//     playSound("torst")
-// })
-// document.getElementById("sulten").addEventListener("click", () => {
-//     playSound("sulten")
-// })
-// document.getElementById("du-gjor").addEventListener("click", () => {
-//     playSound("du-gjor")
-// })
-// document.getElementById("jeg-gjor").addEventListener("click", () => {
-//     playSound("jeg-gjor")
-// })
-// document.getElementById("stopp").addEventListener("click", () => {
-//     playSound("stopp")
-// })
-// document.getElementById("unnskyld").addEventListener("click", () => {
-//     playSound("unnskyld")
-// })
-// document.getElementById("bra").addEventListener("click", () => {
-//     playSound("bra")
-// })
-document.getElementById("ja").addEventListener("touchend", () => {
-    playSound("ja")
-})
-document.getElementById("nei").addEventListener("touchend", () => {
-    playSound("nei")
-})
-document.getElementById("vet-ikke").addEventListener("touchend", () => {
-    playSound("vet-ikke")
-})
-document.getElementById("ferdig").addEventListener("touchend", () => {
-    playSound("ferdig")
-})
-document.getElementById("torst").addEventListener("touchend", () => {
-    playSound("torst")
-})
-document.getElementById("sulten").addEventListener("touchend", () => {
-    playSound("sulten")
-})
-document.getElementById("du-gjor").addEventListener("touchend", () => {
-    playSound("du-gjor")
-})
-document.getElementById("jeg-gjor").addEventListener("touchend", () => {
-    playSound("jeg-gjor")
-})
-document.getElementById("stopp").addEventListener("touchend", () => {
-    playSound("stopp")
-})
-document.getElementById("unnskyld").addEventListener("touchend", () => {
-    playSound("unnskyld")
-})
-document.getElementById("bra").addEventListener("touchend", () => {
-    playSound("bra")
-})
+import command from "../json/library.json"
 
-
-const playSound = (soundId) => {
-    let sound = new Audio(`assets/sounds/${soundId}.mp3`)
+const playSound = (id) => {
+    let sound = new Audio(`assets/sounds/${id}.mp3`)
     sound.play()
 }
 
+function buttonLogic(buttonId, command) {
+    // Build button 
+    const El = document.getElementById(`${buttonId}`)
+    El.innerHTML = `<h3 class="speechbord__item-icon">${command.icon}</h3>`
+    El.innerHTML += `<h3 class="speechboard__item-title">${command.title}</h3>`
 
+    // Connect sound to button
+    El.addEventListener("touchend", () => {
+        playSound(command.id)
+    })
+}
+
+buttonLogic("1-1", command.bra)
+buttonLogic("1-2", command.unnskyld)
+buttonLogic("1-3", command.vetIkke)
+buttonLogic("1-4", command.ferdig)
+
+buttonLogic("2-1", command.bra)
+buttonLogic("2-2", command.unnskyld)
+buttonLogic("2-3", command.vetIkke)
+buttonLogic("2-4", command.ferdig)
+
+buttonLogic("3-1", command.ja)
+buttonLogic("3-2", command.unnskyld)
+buttonLogic("3-3", command.vetIkke)
+buttonLogic("3-4", command.nei)

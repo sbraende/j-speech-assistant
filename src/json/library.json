@@ -1,0 +1,62 @@
+{   
+    "bra": {
+        "id": "bra",
+        "icon": "👍",
+        "title": "bra"
+    },
+    "unnskyld": {
+        "id": "unnskyld",
+        "icon": "😥",
+        "title": "unnskyld"
+    }, 
+    "vetIkke": {
+            "id": "vet-ikke",
+            "icon": "😥",
+            "title": "vet-ikke"
+        }, 
+    "ferdig": {
+            "id": "ferdig",
+            "icon": "😥",
+            "title": "ferdig"
+        }, 
+    "ja": {
+            "id": "ja",
+            "icon": "✅",
+            "title": "ja"
+        }, 
+    "nei": {
+            "id": "nei",
+            "icon": "❌",
+            "title": "nei"
+        }, 
+    "unnskyld": {
+            "id": "unnskyld",
+            "icon": "😥",
+            "title": "unnskyld"
+        }, 
+    "unnskyld": {
+            "id": "unnskyld",
+            "icon": "😥",
+            "title": "unnskyld"
+        }, 
+    "unnskyld": {
+            "id": "unnskyld",
+            "icon": "😥",
+            "title": "unnskyld"
+        }, 
+    "unnskyld": {
+            "id": "unnskyld",
+            "icon": "😥",
+            "title": "unnskyld"
+        }, 
+    "unnskyld": {
+            "id": "unnskyld",
+            "icon": "😥",
+            "title": "unnskyld"
+        }, 
+    "unnskyld": {
+            "id": "unnskyld",
+            "icon": "😥",
+            "title": "unnskyld"
+        }
+}
