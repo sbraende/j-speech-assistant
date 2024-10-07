@@ -25,9 +25,8 @@ const addSpeach = (buttonArray) => {
     buttonArray.forEach((command) => {
         const el = document.getElementById(`${command[0]}`)
         el.addEventListener("touchend", () => {
-            new Audio(`assets/sounds/${command[1].id}.mp3`).play()
+            new Audio(`/assets/sounds/${command[1].id}.mp3`).play()
         })
-
     })
 }
 

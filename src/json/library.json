@@ -6,7 +6,7 @@
     },
     "unnskyld": {
         "id": "unnskyld",
-        "icon": "😥",
+        "icon": "😢",
         "title": "unnskyld"
     }, 
     "vetIkke": {
@@ -16,7 +16,7 @@
         }, 
     "ferdig": {
             "id": "ferdig",
-            "icon": "😥",
+            "icon": "💁🏻‍♀️",
             "title": "ferdig"
         }, 
     "ja": {
@@ -29,34 +29,34 @@
             "icon": "❌",
             "title": "nei"
         }, 
-    "unnskyld": {
-            "id": "unnskyld",
-            "icon": "😥",
-            "title": "unnskyld"
+    "jeg": {
+            "id": "jeg",
+            "icon": "✋🏻",
+            "title": "jeg"
         }, 
-    "unnskyld": {
-            "id": "unnskyld",
-            "icon": "😥",
-            "title": "unnskyld"
+    "du": {
+            "id": "du",
+            "icon": "👉🏻",
+            "title": "du"
         }, 
-    "unnskyld": {
-            "id": "unnskyld",
-            "icon": "😥",
-            "title": "unnskyld"
+    "dorlig": {
+            "id": "dorlig",
+            "icon": "👎🏻",
+            "title": "dårlig"
         }, 
-    "unnskyld": {
-            "id": "unnskyld",
-            "icon": "😥",
-            "title": "unnskyld"
+    "spise": {
+            "id": "spise",
+            "icon": "🍴",
+            "title": "spise"
         }, 
-    "unnskyld": {
-            "id": "unnskyld",
-            "icon": "😥",
-            "title": "unnskyld"
+    "kan": {
+            "id": "kan",
+            "icon": "☝🏻",
+            "title": "kan"
         }, 
-    "unnskyld": {
-            "id": "unnskyld",
-            "icon": "😥",
-            "title": "unnskyld"
+    "stopp": {
+            "id": "stopp",
+            "icon": "🛑",
+            "title": "stopp"
         }
 }

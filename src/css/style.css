@@ -10,7 +10,6 @@ body {
     background-image: url("/assets/images/background/flower_pattern.jpg");
     background-repeat: repeat;
     background-size: 1000px;
-    /* background-color: green; */
 }
 
 main {
@@ -89,12 +88,10 @@ main {
 }
 
 .speechbord__item-icon{
-    touch-action: none;
     font-size: 4rem;
     color: red;
 }
 
 .speechboard__item-title{
-    touch-action: none;
     font-size: 3rem;
 }
