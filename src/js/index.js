@@ -6,7 +6,7 @@ const playSound = (id) => {
 }
 
 function buttonLogic(buttonId, command) {
-    // Build button 
+    // Build button content
     const El = document.getElementById(`${buttonId}`)
     El.innerHTML = `<h3 class="speechbord__item-icon">${command.icon}</h3>`
     El.innerHTML += `<h3 class="speechboard__item-title">${command.title}</h3>`
