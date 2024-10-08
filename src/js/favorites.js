@@ -1,38 +1,57 @@
-import commandLibrary from "../json/library.json"
+import cmdLibrary from "../json/library.json"
+// import { printMe } from "./main"
 
-const BUTTONARRAY = [
-    ["1-1", commandLibrary.bra], ["1-2", commandLibrary.unnskyld], ["1-3", commandLibrary.vetIkke],  ["1-4", commandLibrary.dorlig],
-    ["2-1", commandLibrary.ferdig], ["2-2", commandLibrary.jeg], ["2-3", commandLibrary.du], ["2-4", commandLibrary.spise],
-    ["3-1", commandLibrary.ja], ["3-2", commandLibrary.kan], ["3-3", commandLibrary.stopp], ["3-4", commandLibrary.nei]
+// Currently having two of the same cmd is supported. E.g. bra and bra. 
+const cmdArray = [
+    cmdLibrary.bra, cmdLibrary.unnskyld, cmdLibrary.du, cmdLibrary.jeg,
+    cmdLibrary.ja, cmdLibrary.vetIkke, cmdLibrary.ferdig, cmdLibrary.nei,
+    cmdLibrary.kan, cmdLibrary.stopp, cmdLibrary.spise, cmdLibrary.dorlig
 ]
 
-const createButtons = (buttonArray) => {
-    let buildString = ""
-    buttonArray.forEach((command) => {
-        buildString += 
-        `
-        <button id='${command[0]}' class='speechboard__item'>
-        <h3 class="speechbord__item-icon">${command[1].icon}</h3>
-        <h3 class="speechboard__item-title">${command[1].title}</h3>
-        </button>
-        `
-    })
+const locationsArray = [
+    "1-1", "1-2", "1-3", "1-4",
+    "2-1", "2-2", "2-3", "2-4",
+    "3-1", "3-2", "3-3", "3-4"
+]
+
+const linkLocation = ( cmdArray, locationsArray ) => {
+    // Add location into cmd object
+    for (let i = 0; i < locationsArray.length; i++) {
+        cmdArray[i].location = locationsArray[i]
+    }
+}
+
+const createButtons = (cmdArray) => {
     const speechboardContainerEl = document.getElementById("speechboard_container")
-    speechboardContainerEl.innerHTML = buildString  
+    let buildString = ""
+
+    for (let i = 0; i < cmdArray.length; i++) {
+        buildString += 
+            `
+            <button id='${cmdArray[i].location}' class='speechboard__item'>
+            <h3 class="speechbord__item-icon">${cmdArray[i].icon}</h3>
+            <h3 class="speechboard__item-title">${cmdArray[i].title}</h3>
+            </button>
+            `
+        speechboardContainerEl.innerHTML = buildString
+    }
 }
 
-const addSpeach = (buttonArray) => {
-    buttonArray.forEach((command) => {
-        const el = document.getElementById(`${command[0]}`)
+const addSpeach = (cmdArray) => {
+    for (let i = 0; i < cmdArray.length; i++) {
+        const el = document.getElementById(`${cmdArray[i].location}`)
         el.addEventListener("touchend", () => {
-            new Audio(`/assets/sounds/${command[1].id}.mp3`).play()
-        })
-    })
+            new Audio(`/assets/sounds/${cmdArray[i].id}.mp3`).play()
+            }
+        )
+    }
 }
 
-const main = (buttonArray) => {
-    createButtons(buttonArray)
-    addSpeach(buttonArray)
+const main = (cmdArray, locationsArray) => {
+    linkLocation(cmdArray, locationsArray)
+    createButtons(cmdArray)
+    addSpeach(cmdArray)
 }
 
-main(BUTTONARRAY)
+main(cmdArray, locationsArray)
+
