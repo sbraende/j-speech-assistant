@@ -1,12 +1,12 @@
 {   
     "bra": {
         "cmdId": "bra",
-        "icon": "👍",
+        "icon": "👍🏻",
         "title": "bra"
     },
     "unnskyld": {
         "cmdId": "unnskyld",
-        "icon": "🙇",
+        "icon": "🙏🏻",
         "title": "unnskyld"
     }, 
     "vetIkke": {
@@ -16,7 +16,7 @@
         }, 
     "ferdig": {
             "cmdId": "ferdig",
-            "icon": "💁🏻‍♀️",
+            "icon": "👌🏻",
             "title": "ferdig"
         }, 
     "ja": {
@@ -26,17 +26,17 @@
         }, 
     "nei": {
             "cmdId": "nei",
-            "icon": "❌",
+            "icon": "🚫",
             "title": "nei"
         }, 
     "jeg": {
             "cmdId": "jeg",
-            "icon": "✋🏻",
+            "icon": "🙋🏻‍♀️",
             "title": "jeg"
         }, 
     "du": {
             "cmdId": "du",
-            "icon": "👉🏻",
+            "icon": "👈🏻",
             "title": "du"
         }, 
     "dorlig": {
@@ -46,7 +46,7 @@
         }, 
     "spise": {
             "cmdId": "spise",
-            "icon": "🍴",
+            "icon": "🍽️",
             "title": "spise"
         }, 
     "kan": {
@@ -56,7 +56,67 @@
         }, 
     "stopp": {
             "cmdId": "stopp",
-            "icon": "🛑",
+            "icon": "✋🏻",
             "title": "stopp"
-        }
+        },
+    "drikke": {
+        "cmdId": "drikke",
+        "icon": "🥤",  
+        "title": "drikke"
+    },
+    "kopp": {
+        "cmdId": "kopp",
+        "icon": "☕",  
+        "title": "kopp"
+    },
+    "vann": {
+        "cmdId": "vann",
+        "icon": "💧",  
+        "title": "vann"
+    },
+    "brod": {
+        "cmdId": "brod",
+        "icon": "🍞",  
+        "title": "brød"
+    },
+    "kjott": {
+        "cmdId": "kjott",
+        "icon": "🥩",  
+        "title": "kjøtt"
+    },
+    "frukt": {
+        "cmdId": "frukt",
+        "icon": "🍎",  
+        "title": "frukt"
+    },
+    "gronnsaker": {
+        "cmdId": "gronnsaker",
+        "icon": "🥦",  
+        "title": "grønnsaker"
+    },
+    "pizza": {
+        "cmdId": "pizza",
+        "icon": "🍕",  
+        "title": "pizza"
+    },
+    "pasta": {
+        "cmdId": "pasta",
+        "icon": "🍝",  
+        "title": "pasta"
+    },
+    "fisk": {
+        "cmdId": "fisk",
+        "icon": "🐟",  
+        "title": "fisk"
+    },
+    "kake": {
+        "cmdId": "kake",
+        "icon": "🍰",  
+        "title": "kake"
+    },
+    "is": {
+        "cmdId": "is",
+        "icon": "🍦",  
+        "title": "is"
+    }
 }

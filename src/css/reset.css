@@ -8,3 +8,8 @@
     -ms-user-select: none;     /* Internet Explorer/Edge */
     user-select: none;         /* Standard */
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
