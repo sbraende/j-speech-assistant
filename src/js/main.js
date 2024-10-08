@@ -3,10 +3,10 @@ const createCmdArray = ( arrangmentArray ) => {
     for (let i = 0; i < arrangmentArray.length; i++) {
         const [location, cmd] = arrangmentArray[i]
         let cmdObject = {
-            ...cmd, // Addes content of cmdlibrary.item into cmdObject
+            ...cmd, // Spread operator, addes content of cmdlibrary.item into cmdObject
             location: location // Adds location to cmdObject
         }
-        newArray.push(cmdObject) // Push object with values directly into array
+        newArray.push(cmdObject)
     }
     return newArray
 }
@@ -23,13 +23,12 @@ const createButtons = (cmdArray) => {
             <h3 class="speechboard__item-title">${cmdArray[i].title}</h3>
             </button>
             `
-        speechboardContainerEl.innerHTML = buildString
-    }
+        }
+    speechboardContainerEl.innerHTML = buildString
 }
 
 const addSpeech = (cmdArray) => {
     for (let i = 0; i < cmdArray.length; i++) {
-        // location of button = id
         const el = document.getElementById(`${cmdArray[i].location}`)
         el.addEventListener("touchend", () => {
             new Audio(`/assets/sounds/${cmdArray[i].cmdId}.mp3`).play()

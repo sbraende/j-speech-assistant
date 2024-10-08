@@ -10,55 +10,55 @@
         "title": "unnskyld"
     }, 
     "vetIkke": {
-            "cmdId": "vet-ikke",
-            "icon": "🤷🏻‍♀️",
-            "title": "vet-ikke"
-        }, 
+        "cmdId": "vet-ikke",
+        "icon": "🤷🏻‍♀️",
+        "title": "vet-ikke"
+    }, 
     "ferdig": {
-            "cmdId": "ferdig",
-            "icon": "👌🏻",
-            "title": "ferdig"
-        }, 
+        "cmdId": "ferdig",
+        "icon": "👌🏻",
+        "title": "ferdig"
+    }, 
     "ja": {
-            "cmdId": "ja",
-            "icon": "✅",
-            "title": "ja"
-        }, 
+        "cmdId": "ja",
+        "icon": "✅",
+        "title": "ja"
+    }, 
     "nei": {
-            "cmdId": "nei",
-            "icon": "🚫",
-            "title": "nei"
-        }, 
+        "cmdId": "nei",
+        "icon": "🚫",
+        "title": "nei"
+    }, 
     "jeg": {
-            "cmdId": "jeg",
-            "icon": "🙋🏻‍♀️",
-            "title": "jeg"
-        }, 
+        "cmdId": "jeg",
+        "icon": "🙋🏻‍♀️",
+        "title": "jeg"
+    }, 
     "du": {
-            "cmdId": "du",
-            "icon": "👈🏻",
-            "title": "du"
-        }, 
+        "cmdId": "du",
+        "icon": "👈🏻",
+        "title": "du"
+    }, 
     "dorlig": {
-            "cmdId": "dorlig",
-            "icon": "👎🏻",
-            "title": "dårlig"
-        }, 
+        "cmdId": "dorlig",
+        "icon": "👎🏻",
+        "title": "dårlig"
+    }, 
     "spise": {
-            "cmdId": "spise",
-            "icon": "🍽️",
-            "title": "spise"
-        }, 
+        "cmdId": "spise",
+        "icon": "🍽️",
+        "title": "spise"
+    }, 
     "kan": {
-            "cmdId": "kan",
-            "icon": "☝🏻",
-            "title": "kan"
-        }, 
+        "cmdId": "kan",
+        "icon": "☝🏻",
+        "title": "kan"
+    }, 
     "stopp": {
-            "cmdId": "stopp",
-            "icon": "✋🏻",
-            "title": "stopp"
-        },
+        "cmdId": "stopp",
+        "icon": "✋🏻",
+        "title": "stopp"
+    },
     "drikke": {
         "cmdId": "drikke",
         "icon": "🥤",  
