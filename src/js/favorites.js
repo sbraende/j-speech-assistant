@@ -1,24 +1,23 @@
 import cmdLibrary from "../json/library.json"
 // import { printMe } from "./main"
 
-// Currently having two of the same cmd is supported. E.g. bra and bra. 
-const cmdArray = [
-    cmdLibrary.bra, cmdLibrary.unnskyld, cmdLibrary.du, cmdLibrary.jeg,
-    cmdLibrary.ja, cmdLibrary.vetIkke, cmdLibrary.ferdig, cmdLibrary.nei,
-    cmdLibrary.kan, cmdLibrary.stopp, cmdLibrary.spise, cmdLibrary.dorlig
+const arrangmentArray = [
+    ["1-1", cmdLibrary.bra], ["1-2", cmdLibrary.unnskyld], ["1-3", cmdLibrary.du], ["1-4", cmdLibrary.jeg],
+    ["2-1", cmdLibrary.ja], ["2-2", cmdLibrary.vetIkke], ["2-3", cmdLibrary.ferdig], ["2-4", cmdLibrary.nei],
+    ["3-1", cmdLibrary.kan], ["3-2", cmdLibrary.stopp], ["3-3", cmdLibrary.spise], ["3-4", cmdLibrary.dorlig]
 ]
 
-const locationsArray = [
-    "1-1", "1-2", "1-3", "1-4",
-    "2-1", "2-2", "2-3", "2-4",
-    "3-1", "3-2", "3-3", "3-4"
-]
-
-const linkLocation = ( cmdArray, locationsArray ) => {
-    // Add location into cmd object
-    for (let i = 0; i < locationsArray.length; i++) {
-        cmdArray[i].location = locationsArray[i]
+const createCmdArray = ( arrangmentArray ) => {
+    let newArray = []
+    for (let i = 0; i < arrangmentArray.length; i++) {
+        const [location, cmd] = arrangmentArray[i]
+        let cmdObject = {
+            ...cmd, // Addes content of cmdlibrary.item into cmdObject
+            location: location // Adds location to cmdObject
+        }
+        newArray.push(cmdObject) // Push object with values directly into array
     }
+    return newArray
 }
 
 const createButtons = (cmdArray) => {
@@ -37,21 +36,21 @@ const createButtons = (cmdArray) => {
     }
 }
 
-const addSpeach = (cmdArray) => {
+const addSpeech = (cmdArray) => {
     for (let i = 0; i < cmdArray.length; i++) {
+        // location of button = id
         const el = document.getElementById(`${cmdArray[i].location}`)
         el.addEventListener("touchend", () => {
-            new Audio(`/assets/sounds/${cmdArray[i].id}.mp3`).play()
+            new Audio(`/assets/sounds/${cmdArray[i].cmdId}.mp3`).play()
             }
         )
     }
 }
 
-const main = (cmdArray, locationsArray) => {
-    linkLocation(cmdArray, locationsArray)
+const main = (arrangmentArray) => {
+    const cmdArray = createCmdArray(arrangmentArray)
     createButtons(cmdArray)
-    addSpeach(cmdArray)
+    addSpeech(cmdArray)
 }
 
-main(cmdArray, locationsArray)
-
+main(arrangmentArray)

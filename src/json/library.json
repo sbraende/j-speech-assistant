@@ -1,61 +1,61 @@
 {   
     "bra": {
-        "id": "bra",
+        "cmdId": "bra",
         "icon": "👍",
         "title": "bra"
     },
     "unnskyld": {
-        "id": "unnskyld",
-        "icon": "😢",
+        "cmdId": "unnskyld",
+        "icon": "🙇",
         "title": "unnskyld"
     }, 
     "vetIkke": {
-            "id": "vet-ikke",
+            "cmdId": "vet-ikke",
             "icon": "🤷🏻‍♀️",
             "title": "vet-ikke"
         }, 
     "ferdig": {
-            "id": "ferdig",
+            "cmdId": "ferdig",
             "icon": "💁🏻‍♀️",
             "title": "ferdig"
         }, 
     "ja": {
-            "id": "ja",
+            "cmdId": "ja",
             "icon": "✅",
             "title": "ja"
         }, 
     "nei": {
-            "id": "nei",
+            "cmdId": "nei",
             "icon": "❌",
             "title": "nei"
         }, 
     "jeg": {
-            "id": "jeg",
+            "cmdId": "jeg",
             "icon": "✋🏻",
             "title": "jeg"
         }, 
     "du": {
-            "id": "du",
+            "cmdId": "du",
             "icon": "👉🏻",
             "title": "du"
         }, 
     "dorlig": {
-            "id": "dorlig",
+            "cmdId": "dorlig",
             "icon": "👎🏻",
             "title": "dårlig"
         }, 
     "spise": {
-            "id": "spise",
+            "cmdId": "spise",
             "icon": "🍴",
             "title": "spise"
         }, 
     "kan": {
-            "id": "kan",
+            "cmdId": "kan",
             "icon": "☝🏻",
             "title": "kan"
         }, 
     "stopp": {
-            "id": "stopp",
+            "cmdId": "stopp",
             "icon": "🛑",
             "title": "stopp"
         }
