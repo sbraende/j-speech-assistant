@@ -118,5 +118,125 @@
         "cmdId": "is",
         "icon": "🍦",  
         "title": "is"
+    },
+    "doktor": {
+        "cmdId": "doktor",
+        "icon": "👨‍⚕️",  
+        "title": "doktor"
+    },
+    "sykepleier": {
+        "cmdId": "sykepleier",
+        "icon": "👩‍⚕️",  
+        "title": "sykepleier"
+    },
+    "medisin": {
+        "cmdId": "medisin",
+        "icon": "💊",  
+        "title": "medisin"
+    },
+    "sykehus": {
+        "cmdId": "sykehus",
+        "icon": "🏥", 
+        "title": "sykehus"
+    },
+    "vondt": {
+        "cmdId": "vondt",
+        "icon": "🤕", 
+        "title": "vondt"
+    },
+    "hjerte": {
+        "cmdId": "hjerte",
+        "icon": "❤️",  
+        "title": "hjerte"
+    },
+    "vaksine": {
+        "cmdId": "vaksine",
+        "icon": "💉", 
+        "title": "vaksine"
+    },
+    "feber": {
+        "cmdId": "feber",
+        "icon": "🤒",  
+        "title": "feber"
+    },
+    "rullestol": {
+        "cmdId": "rullestol",
+        "icon": "🦽", 
+        "title": "rullestol"
+    },
+    "oyedraper": {
+        "cmdId": "oyedraper",
+        "icon": "👁️‍🗨️",  
+        "title": "øyedråper"
+    },
+    "bandasje": {
+        "cmdId": "bandasje",
+        "icon": "🩹",  
+        "title": "bandasje"
+    },
+    "sove": {
+        "cmdId": "sove",
+        "icon": "💤",  
+        "title": "sove"
+    },
+    "teppe": {
+        "cmdId": "teppe",
+        "icon": "🧣",  
+        "title": "teppe"
+    },
+    "kakao": {
+        "cmdId": "kakao",
+        "icon": "☕️", 
+        "title": "kakao"
+    },
+    "sofa": {
+        "cmdId": "sofa",
+        "icon": "🛋️", 
+        "title": "sofa"
+    },
+    "bok": {
+        "cmdId": "bok",
+        "icon": "📖",  
+        "title": "bok"
+    },
+    "peis": {
+        "cmdId": "peis",
+        "icon": "🔥", 
+        "title": "peis"
+    },
+    "filmkveld": {
+        "cmdId": "filmkveld",
+        "icon": "🎬",  
+        "title": "filmkveld"
+    },
+    "pledd": {
+        "cmdId": "pledd",
+        "icon": "🛏️",  
+        "title": "pledd"
+    },
+    "stearinlys": {
+        "cmdId": "stearinlys",
+        "icon": "🕯️",  
+        "title": "stearinlys"
+    },
+    "klem": {
+        "cmdId": "klem",
+        "icon": "🤗", 
+        "title": "klem"
+    },
+    "musikk": {
+        "cmdId": "musikk",
+        "icon": "🎶",  
+        "title": "musikk"
+    },
+    "strikke": {
+        "cmdId": "strikke",
+        "icon": "🧶",  
+        "title": "strikke"
+    },
+    "godteri": {
+        "cmdId": "godteri",
+        "icon": "🍬",  
+        "title": "godteri"
     }
 }
