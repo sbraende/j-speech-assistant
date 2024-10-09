@@ -19,8 +19,8 @@ const createButtons = (cmdArray) => {
         buildString += 
             `
             <button id='${cmdArray[i].location}' class='speechboard__item'>
-            <h3 class="speechbord__item-icon">${cmdArray[i].icon}</h3>
-            <h3 class="speechboard__item-title">${cmdArray[i].title}</h3>
+                <h3 class="speechbord__item-icon">${cmdArray[i].icon}</h3>
+                <h3 class="speechboard__item-title">${cmdArray[i].title}</h3>
             </button>
             `
         }
