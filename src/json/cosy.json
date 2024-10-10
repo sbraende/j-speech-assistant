@@ -1,0 +1,62 @@
+{
+    "teppe": {
+        "cmdId": "teppe",
+        "icon": "🧣",  
+        "title": "teppe"
+    },
+    "kakao": {
+        "cmdId": "kakao",
+        "icon": "☕️", 
+        "title": "kakao"
+    },
+    "sofa": {
+        "cmdId": "sofa",
+        "icon": "🛋️", 
+        "title": "sofa"
+    },
+    "bok": {
+        "cmdId": "bok",
+        "icon": "📖",  
+        "title": "bok"
+    },
+    "peis": {
+        "cmdId": "peis",
+        "icon": "🔥", 
+        "title": "peis"
+    },
+    "filmkveld": {
+        "cmdId": "filmkveld",
+        "icon": "🎬",  
+        "title": "filmkveld"
+    },
+    "pledd": {
+        "cmdId": "pledd",
+        "icon": "🛏️",  
+        "title": "pledd"
+    },
+    "stearinlys": {
+        "cmdId": "stearinlys",
+        "icon": "🕯️",  
+        "title": "stearinlys"
+    },
+    "klem": {
+        "cmdId": "klem",
+        "icon": "🤗", 
+        "title": "klem"
+    },
+    "musikk": {
+        "cmdId": "musikk",
+        "icon": "🎶",  
+        "title": "musikk"
+    },
+    "strikke": {
+        "cmdId": "strikke",
+        "icon": "🧶",  
+        "title": "strikke"
+    },
+    "godteri": {
+        "cmdId": "godteri",
+        "icon": "🍬",  
+        "title": "godteri"
+    }
+}

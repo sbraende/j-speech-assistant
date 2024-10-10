@@ -1,0 +1,62 @@
+{
+    "doktor": {
+        "cmdId": "doktor",
+        "icon": "👨‍⚕️",  
+        "title": "doktor"
+    },
+    "sykepleier": {
+        "cmdId": "sykepleier",
+        "icon": "👩‍⚕️",  
+        "title": "sykepleier"
+    },
+    "medisin": {
+        "cmdId": "medisin",
+        "icon": "💊",  
+        "title": "medisin"
+    },
+    "sykehus": {
+        "cmdId": "sykehus",
+        "icon": "🏥", 
+        "title": "sykehus"
+    },
+    "vondt": {
+        "cmdId": "vondt",
+        "icon": "🤕", 
+        "title": "vondt"
+    },
+    "hjerte": {
+        "cmdId": "hjerte",
+        "icon": "❤️",  
+        "title": "hjerte"
+    },
+    "vaksine": {
+        "cmdId": "vaksine",
+        "icon": "💉", 
+        "title": "vaksine"
+    },
+    "feber": {
+        "cmdId": "feber",
+        "icon": "🤒",  
+        "title": "feber"
+    },
+    "rullestol": {
+        "cmdId": "rullestol",
+        "icon": "🦽", 
+        "title": "rullestol"
+    },
+    "oyedraper": {
+        "cmdId": "oyedraper",
+        "icon": "👁️‍🗨️",  
+        "title": "øyedråper"
+    },
+    "bandasje": {
+        "cmdId": "bandasje",
+        "icon": "🩹",  
+        "title": "bandasje"
+    },
+    "sove": {
+        "cmdId": "sove",
+        "icon": "💤",  
+        "title": "sove"
+    }
+}

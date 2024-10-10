@@ -1,0 +1,62 @@
+{
+    "drikke": {
+        "cmdId": "drikke",
+        "icon": "🥤",  
+        "title": "drikke"
+    },
+    "kopp": {
+        "cmdId": "kopp",
+        "icon": "☕",  
+        "title": "kopp"
+    },
+    "vann": {
+        "cmdId": "vann",
+        "icon": "💧",  
+        "title": "vann"
+    },
+    "brod": {
+        "cmdId": "brod",
+        "icon": "🍞",  
+        "title": "brød"
+    },
+    "kjott": {
+        "cmdId": "kjott",
+        "icon": "🥩",  
+        "title": "kjøtt"
+    },
+    "frukt": {
+        "cmdId": "frukt",
+        "icon": "🍎",  
+        "title": "frukt"
+    },
+    "gronnsaker": {
+        "cmdId": "gronnsaker",
+        "icon": "🥦",  
+        "title": "grønnsaker"
+    },
+    "pizza": {
+        "cmdId": "pizza",
+        "icon": "🍕",  
+        "title": "pizza"
+    },
+    "pasta": {
+        "cmdId": "pasta",
+        "icon": "🍝",  
+        "title": "pasta"
+    },
+    "fisk": {
+        "cmdId": "fisk",
+        "icon": "🐟",  
+        "title": "fisk"
+    },
+    "kake": {
+        "cmdId": "kake",
+        "icon": "🍰",  
+        "title": "kake"
+    },
+    "is": {
+        "cmdId": "is",
+        "icon": "🍦",  
+        "title": "is"
+    }
+}
