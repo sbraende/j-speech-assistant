@@ -1,0 +1,62 @@
+[
+    {
+        "cmdId": "bra",
+        "icon": "👍🏻",
+        "title": "bra"
+    },
+    {
+        "cmdId": "unnskyld",
+        "icon": "🙏🏻",
+        "title": "unnskyld"
+    }, 
+    {
+        "cmdId": "vet-ikke",
+        "icon": "🤷🏻‍♀️",
+        "title": "vet-ikke"
+    }, 
+    {
+        "cmdId": "ferdig",
+        "icon": "👌🏻",
+        "title": "ferdig"
+    }, 
+    {
+        "cmdId": "ja",
+        "icon": "✅",
+        "title": "ja"
+    }, 
+    {
+        "cmdId": "nei",
+        "icon": "🚫",
+        "title": "nei"
+    }, 
+    {
+        "cmdId": "jeg",
+        "icon": "🙋🏻‍♀️",
+        "title": "jeg"
+    }, 
+    {
+        "cmdId": "du",
+        "icon": "👈🏻",
+        "title": "du"
+    }, 
+    {
+        "cmdId": "dorlig",
+        "icon": "👎🏻",
+        "title": "dårlig"
+    }, 
+    {
+        "cmdId": "spise",
+        "icon": "🍽️",
+        "title": "spise"
+    }, 
+    {
+        "cmdId": "kan",
+        "icon": "☝🏻",
+        "title": "kan"
+    }, 
+    {
+        "cmdId": "stopp",
+        "icon": "✋🏻",
+        "title": "stopp"
+    }
+]
