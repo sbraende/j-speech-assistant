@@ -1,5 +1,5 @@
-import cmds from "../json/temp.json"
-// import { buildSoundboard } from "./main"
+import { buildSoundboard } from "./main"
+import cmdLibrary from "../json/favorites.json"
 
-// buildSoundboard(cmds)
+buildSoundboard(cmdLibrary)
 
