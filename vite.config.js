@@ -2,6 +2,15 @@ import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
+  build: {
+    rollupOptions: {
+      main: 'index.html',
+      cosy: 'src/html/cosy.html',
+      favorites: 'src/html/favorites.html',
+      food_and_drink: 'src/html/food_and_drink.html',
+      health: 'src/html/health.html',
+    }
+  },
   plugins: [
     VitePWA({
       registerType: 'autoUpdate',
@@ -41,13 +50,9 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,ico,mp3}'],
         clientsClaim: true,
-      },
-
-      devOptions: {
-        enabled: false,
-        navigateFallback: 'index.html',
-        suppressWarnings: true,
-        type: 'module',
-      },
-  })],
-})
+        }
+      }
+    )
+  ],
+}
+)
