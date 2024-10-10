@@ -1,14 +1,15 @@
-import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa';
+import { resolve } from 'path'
+import { defineConfig } from 'vite'
 
 export default defineConfig({
   build: {
     rollupOptions: {
-      main: 'index.html',
-      cosy: 'src/html/cosy.html',
-      favorites: 'src/html/favorites.html',
-      food_and_drink: 'src/html/food_and_drink.html',
-      health: 'src/html/health.html',
+      main: resolve(__dirname, 'index.html'),
+      cosy: resolve(__dirname, 'src/html/cosy.html'),
+      favorites: resolve(__dirname, 'src/html/favorites.html'),
+      food_and_drink: resolve(__dirname, 'src/html/food_and_drink.html'),
+      health: resolve(__dirname, 'src/html/health.html'),
     }
   },
   plugins: [
