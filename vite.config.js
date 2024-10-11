@@ -1,5 +1,5 @@
 import { VitePWA } from 'vite-plugin-pwa';
-import { resolve } from 'path'
+// import { resolve } from 'path'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
@@ -17,6 +17,7 @@ export default defineConfig({
   plugins: [
     VitePWA({
       registerType: 'autoUpdate',
+      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
 
       manifest: {
         name: 'J-Speech-Assistant',
