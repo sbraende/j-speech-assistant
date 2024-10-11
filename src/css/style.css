@@ -54,7 +54,7 @@ main {
 
 .navbar__item--active {
     border-right: none;
-    background-color: var(--emily-color);
+    background-color: var(--color-background);
 }
 
 .navbar__item-icon {
@@ -67,7 +67,8 @@ main {
 
 .speechboard {
     width: 100%;
-    background-color: var(--emily-color);
+    background-color: var(--color-background);
+    border-top-left-radius: var(--padding-medium);
     border-top-right-radius: var(--padding-medium);
     border-bottom-right-radius: var(--padding-medium);
 }

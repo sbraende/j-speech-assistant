@@ -1,5 +1,4 @@
 import { VitePWA } from 'vite-plugin-pwa';
-// import { resolve } from 'path'
 import { defineConfig } from 'vite'
 
 export default defineConfig({

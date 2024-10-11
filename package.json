@@ -9,9 +9,9 @@
     "build": "vite build",
     "serve": "vite preview"
   },
-  "author": "",
+  "author": "Sebastian Braende",
   "license": "ISC",
-  "description": "",
+  "description": "J-Speech helps people with speech diffuclties communicate",
   "devDependencies": {
     "vite": "^5.2.10",
     "vite-plugin-pwa": "^0.20.5"

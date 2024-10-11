@@ -1,8 +1,6 @@
 :root {
-    --primary-light-color: whitesmoke;
-    --primary-background-color: rgb(33, 33, 33);
-    --secondary-background-color: rgb(132, 132, 132);
-    --emily-color: rgb(243, 242, 242);
+    --color-primary-light: whitesmoke;
+    --color-background: rgb(238, 234, 230);
 
     --padding-extra-small: 0.25rem;
     --padding-small: 0.5rem;

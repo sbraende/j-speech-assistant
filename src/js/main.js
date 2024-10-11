@@ -1,6 +1,6 @@
 const createButtons = (cmdLibrary) => {
     const buttonContainerEl = document.getElementById("speechboard_container")
-    const fragment = document.createDocumentFragment() // Creating in memory DOM, not rendered
+    const fragment = document.createDocumentFragment() // Creating html in memory, not rendered
 
     for (const cmd of cmdLibrary) {
         const buttonEl = document.createElement("button")
