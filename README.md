@@ -3,8 +3,13 @@
 <b>J Speech Assistant</b> is a Progressive Web App (PWA) designed to assist individuals with speech difficulties. The app functions as a soundboard, allowing users to tap buttons to play predefined sounds or phrases for easier communication. The primary language is Norwegian.
 
 ## Features
+- Specifically designed for tablets.
 - Soundboard Interface: Users can tap buttons to play sounds or sentences.
-- PWA Support: Offline functionality and installable on mobile and desktop.
+- PWA Support: Offline functionality and installable on tablets. 
+
+Published PWA/website: [https://j-speech.netlify.app/](https://j-speech.netlify.app/)
+
+![Screenshot](./public/assets/images/screenshot/screenshot_j-speech.jpg)
 
 
 ## Getting Started

@@ -15,7 +15,7 @@ const createButtons = (cmdLibrary) => {
         buttonTitle.innerText = cmd.title
         buttonTitle.className = "speechboard__item-title"
     
-        buttonEl.append(buttonTitle, buttonIcon)
+        buttonEl.append(buttonIcon, buttonTitle)
         fragment.appendChild(buttonEl)
     }
 

@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/assets/fonts/Roboto/Roboto-Regular.tff");
+}
 
 body {
     touch-action: none;
@@ -11,6 +15,7 @@ body {
     background-image: url("/assets/images/background/flower_pattern.jpg");
     background-repeat: repeat;
     background-size: 1000px;
+    font-family: "Roboto", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 main {
@@ -53,11 +58,11 @@ main {
 }
 
 .navbar__item-icon {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .navbar__item-title {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .speechboard {
@@ -89,11 +94,11 @@ main {
 }
 
 .speechbord__item-icon{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .speechboard__item-title{
-    font-size: 3rem;
+    font-size: 2rem;
     color: black;
 }
 

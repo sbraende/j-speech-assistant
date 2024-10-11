@@ -25,20 +25,20 @@
         "title": "ja"
     }, 
     {
-        "cmdId": "nei",
-        "icon": "🚫",
-        "title": "nei"
+        "cmdId": "du",
+        "icon": "👈🏻",
+        "title": "du"
     }, 
     {
         "cmdId": "jeg",
         "icon": "🙋🏻‍♀️",
         "title": "jeg"
-    }, 
+    },
     {
-        "cmdId": "du",
-        "icon": "👈🏻",
-        "title": "du"
-    }, 
+        "cmdId": "nei",
+        "icon": "🚫",
+        "title": "nei"
+    },  
     {
         "cmdId": "dorlig",
         "icon": "👎🏻",
