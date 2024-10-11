@@ -1,3 +1,4 @@
+
 body {
     touch-action: none;
     -webkit-text-size-adjust: none;
@@ -93,4 +94,11 @@ main {
 
 .speechboard__item-title{
     font-size: 3rem;
+    color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-image: url("/assets/images/background/flower_pattern-inverted.jpg");
+    } 
 }
