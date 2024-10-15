@@ -5,15 +5,16 @@ const createButtons = (cmdLibrary) => {
     for (const cmd of cmdLibrary) {
         const buttonEl = document.createElement("button")
         buttonEl.id = cmd.cmdId 
-        buttonEl.className = "speechboard__item"
+        buttonEl.classList.add("speechboard__item")
+
     
         const buttonIcon = document.createElement("h3")
         buttonIcon.innerText = cmd.icon 
-        buttonIcon.className = "speechbord__item-icon" 
+        buttonIcon.classList.add("speechbord__item-icon")
     
         const buttonTitle = document.createElement("h3")
         buttonTitle.innerText = cmd.title
-        buttonTitle.className = "speechboard__item-title"
+        buttonTitle.classList.add("speechboard__item-title")
     
         buttonEl.append(buttonIcon, buttonTitle)
         fragment.appendChild(buttonEl)
@@ -24,7 +25,7 @@ const createButtons = (cmdLibrary) => {
 
 const addSpeech = (cmdLibrary) => {
     for (const cmd of cmdLibrary) {
-        const buttonEl = document.getElementById(cmd.cmdId)
+        const buttonEl = document.querySelector("#" + cmd.cmdId)
         buttonEl.addEventListener("touchend", () => {
             new Audio(`/assets/sounds/${cmd.cmdId}.mp3`).play()
             }
