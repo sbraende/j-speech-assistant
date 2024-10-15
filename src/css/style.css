@@ -99,6 +99,7 @@ main {
 }
 
 .speechboard__item-title{
+    padding: var(--padding-small);
     font-size: 2rem;
     color: black;
 }
