@@ -6,7 +6,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: 'index.html',
-        cosy: 'src/html/cosy.html',
+        tv_rom: 'src/html/tv_rom.html',
         favorites: 'src/html/favorites.html',
         food_and_drink: 'src/html/food_and_drink.html',
         health: 'src/html/health.html',

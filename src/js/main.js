@@ -6,7 +6,6 @@ const createButtons = (cmdLibrary) => {
         const buttonEl = document.createElement("button")
         buttonEl.id = cmd.cmdId 
         buttonEl.classList.add("speechboard__item")
-
     
         const buttonIcon = document.createElement("h3")
         buttonIcon.innerText = cmd.icon 

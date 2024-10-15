@@ -5,14 +5,14 @@
         "title": "medisin"
     }, 
     {
-        "cmdId": "kald-varm",
-        "icon": "🌡️",
-        "title": "kald eller varm"
+        "cmdId": "avis-magasin",
+        "icon": "📰",
+        "title": "avis eller magasin"
     },
     {
-        "cmdId": "spytt-maskin",
-        "icon": "💧",
-        "title": "spytt-maskin"
+        "cmdId": "spisestue",
+        "icon": "👩🏻‍🦽",
+        "title": "spise-stue"
     }, 
     {
         "cmdId": "kontakt-sven",
@@ -40,23 +40,23 @@
         "title": "nei"
     },  
     {
-        "cmdId": "sulten",
-        "icon": "🍽️",
-        "title": "sulten"
+        "cmdId": "spytt-maskin",
+        "icon": "💦",
+        "title": "spytt-maskin"
     }, 
     {
-        "cmdId": "trott",
-        "icon": "💤",
-        "title": "trøtt"
+        "cmdId": "stol-posisjon",
+        "icon": "📐",
+        "title": "stol-posisjon"
     }, 
     {
-        "cmdId": "vanskelig-a-puste",
-        "icon": "😮‍💨",
-        "title": "vanskelig å puste"
+        "cmdId": "torst",
+        "icon": "🧃",
+        "title": "tørst"
     }, 
     {
-        "cmdId": "toalett",
-        "icon": "🚾",
-        "title": "toalett"
+        "cmdId": "tv",
+        "icon": "📺",
+        "title": "tv"
     }
 ]

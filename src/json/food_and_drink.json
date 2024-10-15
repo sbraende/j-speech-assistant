@@ -1,62 +1,62 @@
 [
     {
-        "cmdId": "drikke",
-        "icon": "🥤",  
-        "title": "drikke"
+        "cmdId": "medisin",
+        "icon": "⚕️",
+        "title": "medisin"
+    }, 
+    {
+        "cmdId": "jeg-prover",
+        "icon": "🙋🏻‍♀️",
+        "title": "jeg prøver"
     },
     {
-        "cmdId": "kopp",
-        "icon": "☕",  
-        "title": "kopp"
+        "cmdId": "mat-meg",
+        "icon": "🍓",
+        "title": "mat meg"
+    }, 
+    {
+        "cmdId": "kom-hit",
+        "icon": "☝🏻",
+        "title": "kom-hit"
+    }, 
+    {
+        "cmdId": "ja",
+        "icon": "✅",
+        "title": "ja"
+    }, 
+    {
+        "cmdId": "trenger-hjelp",
+        "icon": "🛟",
+        "title": "trenger hjelp"
+    }, 
+    {
+        "cmdId": "ferdig",
+        "icon": "☑️",
+        "title": "ferdig"
     },
     {
-        "cmdId": "vann",
-        "icon": "💧",  
-        "title": "vann"
-    },
+        "cmdId": "nei",
+        "icon": "🚫",
+        "title": "nei"
+    },  
     {
-        "cmdId": "brod",
-        "icon": "🍞",  
-        "title": "brød"
-    },
+        "cmdId": "sulten",
+        "icon": "🍽️",
+        "title": "sulten"
+    }, 
     {
-        "cmdId": "kjott",
-        "icon": "🥩",  
-        "title": "kjøtt"
-    },
+        "cmdId": "torst",
+        "icon": "🧃",
+        "title": "tørst"
+    }, 
     {
-        "cmdId": "frukt",
-        "icon": "🍎",  
-        "title": "frukt"
-    },
+        "cmdId": "tv-stue",
+        "icon": "📺",
+        "title": "tv-stue"
+    }, 
     {
-        "cmdId": "gronnsaker",
-        "icon": "🥦",  
-        "title": "grønnsaker"
-    },
-    {
-        "cmdId": "pizza",
-        "icon": "🍕",  
-        "title": "pizza"
-    },
-    {
-        "cmdId": "pasta",
-        "icon": "🍝",  
-        "title": "pasta"
-    },
-    {
-        "cmdId": "fisk",
-        "icon": "🐟",  
-        "title": "fisk"
-    },
-    {
-        "cmdId": "kake",
-        "icon": "🍰",  
-        "title": "kake"
-    },
-    {
-        "cmdId": "is",
-        "icon": "🍦",  
-        "title": "is"
+        "cmdId": "mett",
+        "icon": "🤰🏻",
+        "title": "mett"
     }
 ]

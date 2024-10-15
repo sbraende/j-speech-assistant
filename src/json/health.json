@@ -1,62 +1,62 @@
 [
     {
-        "cmdId": "doktor",
-        "icon": "👨‍⚕️",  
-        "title": "doktor"
-    },
-    {
-        "cmdId": "sykepleier",
-        "icon": "👩‍⚕️",  
-        "title": "sykepleier"
-    },
-    {
         "cmdId": "medisin",
-        "icon": "💊",  
+        "icon": "⚕️",
         "title": "medisin"
+    }, 
+    {
+        "cmdId": "do",
+        "icon": "🚽",
+        "title": "do"
+    }, 
+    {
+        "cmdId": "dusj",
+        "icon": "🛀",
+        "title": "dusj"
     },
     {
-        "cmdId": "sykehus",
-        "icon": "🏥", 
-        "title": "sykehus"
+        "cmdId": "kontakt-sven",
+        "icon": "👈🏻",
+        "title": "kontakt Sven"
+    }, 
+    {
+        "cmdId": "ja",
+        "icon": "✅",
+        "title": "ja"
+    }, 
+    {
+        "cmdId": "har",
+        "icon": "🫴🏻",
+        "title": "har"
+    }, 
+    {
+        "cmdId": "vet-ikke",
+        "icon": "🤷🏻‍♀️",
+        "title": "vet ikke"
     },
     {
-        "cmdId": "vondt",
-        "icon": "🤕", 
-        "title": "vondt"
-    },
+        "cmdId": "nei",
+        "icon": "🚫",
+        "title": "nei"
+    },  
     {
-        "cmdId": "hjerte",
-        "icon": "❤️",  
-        "title": "hjerte"
-    },
+        "cmdId": "sminke",
+        "icon": "💄",
+        "title": "sminke"
+    }, 
     {
-        "cmdId": "vaksine",
-        "icon": "💉", 
-        "title": "vaksine"
-    },
+        "cmdId": "stelle",
+        "icon": "👐🏻",
+        "title": "stelle"
+    }, 
     {
-        "cmdId": "feber",
-        "icon": "🤒",  
-        "title": "feber"
-    },
+        "cmdId": "tenner",
+        "icon": "🪥",
+        "title": "tenner"
+    }, 
     {
-        "cmdId": "rullestol",
-        "icon": "🦽", 
-        "title": "rullestol"
-    },
-    {
-        "cmdId": "oyedraper",
-        "icon": "👁️‍🗨️",  
-        "title": "øyedråper"
-    },
-    {
-        "cmdId": "bandasje",
-        "icon": "🩹",  
-        "title": "bandasje"
-    },
-    {
-        "cmdId": "sove",
-        "icon": "💤",  
-        "title": "sove"
+        "cmdId": "vaske-hender",
+        "icon": "🧼",
+        "title": "vaske-hender"
     }
 ]
